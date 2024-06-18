@@ -1,7 +1,20 @@
+import Title from "../components/Title";
+
 const About = () => {
   return (
     <>
-      <h1>AboutMe</h1>
+      <Title />
+      <div>
+        <div>
+          <h1>Motivation</h1>
+        </div>
+        <div>
+          <h1>Skills</h1>
+        </div>
+        <div>
+          <h1>Timeline</h1>
+        </div>
+      </div>
     </>
   );
 };
